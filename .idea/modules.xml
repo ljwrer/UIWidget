@@ -7,8 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/layoutinflatertest/layoutinflatertest.iml" filepath="$PROJECT_DIR$/layoutinflatertest/layoutinflatertest.iml" />
       <module fileurl="file://$PROJECT_DIR$/listviewtest/listviewtest.iml" filepath="$PROJECT_DIR$/listviewtest/listviewtest.iml" />
       <module fileurl="file://$PROJECT_DIR$/soceerlistview/soceerlistview.iml" filepath="$PROJECT_DIR$/soceerlistview/soceerlistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uibestpractice/uibestpractice.iml" filepath="$PROJECT_DIR$/uibestpractice/uibestpractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/uicustomviews/uicustomviews.iml" filepath="$PROJECT_DIR$/uicustomviews/uicustomviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/uilayouttest/uilayouttest.iml" filepath="$PROJECT_DIR$/uilayouttest/uilayouttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uisizetest/uisizetest.iml" filepath="$PROJECT_DIR$/uisizetest/uisizetest.iml" />
     </modules>
   </component>
 </project>

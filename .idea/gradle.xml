@@ -13,8 +13,10 @@
             <option value="$PROJECT_DIR$/layoutinflatertest" />
             <option value="$PROJECT_DIR$/listviewtest" />
             <option value="$PROJECT_DIR$/soceerlistview" />
+            <option value="$PROJECT_DIR$/uibestpractice" />
             <option value="$PROJECT_DIR$/uicustomviews" />
             <option value="$PROJECT_DIR$/uilayouttest" />
+            <option value="$PROJECT_DIR$/uisizetest" />
           </set>
         </option>
       </GradleProjectSettings>

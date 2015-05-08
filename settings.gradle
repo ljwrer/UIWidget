@@ -1,1 +1,1 @@
-include ':app', ':uilayouttest', ':uicustomviews', ':listviewtest', ':layoutinflatertest', ':soceerlistview'
+include ':app', ':uilayouttest', ':uicustomviews', ':listviewtest', ':layoutinflatertest', ':soceerlistview', ':uisizetest', ':uibestpractice'

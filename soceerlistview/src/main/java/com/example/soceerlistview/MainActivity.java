@@ -2,9 +2,13 @@ package com.example.soceerlistview;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -20,6 +24,14 @@ public class MainActivity extends Activity {
         initSoccer();
         SoccerAdapter soccerAdapter=new SoccerAdapter(MainActivity.this,R.layout.soccer_player,arrayList);
         listView.setAdapter(soccerAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Soccer soccer=arrayList.get(position);
+                Toast.makeText(MainActivity.this,"number "+soccer.getNumber()+" "+soccer.getName(),Toast.LENGTH_SHORT).show();
+                Log.d("ddd",parent+" "+view+" "+position+" "+id);
+            }
+        });
     }
     public void initSoccer(){
         Soccer petrCech=new Soccer(1,R.drawable.petrcech,"petrCech");
